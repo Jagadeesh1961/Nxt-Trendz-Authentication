@@ -1,0 +1,150 @@
+.nav-header {
+  display: flex;
+  justify-content: space-around;
+}
+
+@media screen and (max-width: 767px) {
+  .nav-header {
+    flex-direction: column;
+  }
+}
+
+.nav-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 85%;
+  max-width: 1110px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 15px;
+}
+
+@media screen and (max-width: 767px) {
+  .nav-content {
+    flex-direction: column;
+    width: 100%;
+    padding-right: 15px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .nav-large-container {
+    display: none;
+  }
+}
+
+.nav-mobile-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-mobile-container {
+    display: none;
+  }
+}
+
+.website-logo {
+  width: 120px;
+}
+
+@media screen and (min-width: 768px) {
+  .website-logo {
+    width: 180px;
+  }
+}
+
+.logout-icon {
+  width: 24px;
+}
+
+.nav-menu {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+  align-self: flex-end;
+  flex: 1;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+@media screen and (max-width: 767px) {
+  .nav-menu {
+    display: none;
+  }
+}
+
+.nav-menu-list-item {
+  margin-right: 20px;
+  font-family: 'Roboto';
+  font-weight: 400;
+  color: #64748b;
+}
+
+.nav-menu-mobile {
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-menu-mobile {
+    display: none;
+  }
+}
+
+.nav-menu-mobile-list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #e6f6ff;
+  height: 70px;
+  list-style-type: none;
+  padding: 0;
+  flex: 1;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.nav-menu-item-mobile {
+  margin: 0px;
+  cursor: pointer;
+}
+
+.logout-button {
+  background-color: #0967d2;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+  padding-left: 18px;
+  padding-right: 18px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: 4px;
+  color: white;
+  font-family: 'Roboto';
+}
+
+@media screen and (max-width: 767px) {
+  .logout-button {
+    display: none;
+  }
+}
+
+.logout-mobile-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  padding: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .logout-mobile-button {
+    display: none;
+  }
+}
+
+.mobile-icon {
+  width: 24px;
+}

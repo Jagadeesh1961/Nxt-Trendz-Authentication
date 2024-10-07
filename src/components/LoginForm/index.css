@@ -1,0 +1,135 @@
+.login-form-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  max-width: 1120px;
+  margin: auto;
+}
+
+@media screen and (min-width: 992px) {
+  .login-form-container {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
+
+.website-logo-mobile-img {
+  width: 160px;
+  margin-top: 50px;
+  margin-bottom: 35px;
+}
+
+@media screen and (min-width: 992px) {
+  .website-logo-mobile-img {
+    display: none;
+  }
+}
+
+.website-login {
+  width: 80%;
+  max-width: 350px;
+}
+
+@media screen and (min-width: 992px) {
+  .website-login {
+    width: 60%;
+    max-width: 550px;
+    flex-shrink: 1;
+    margin-right: 20px;
+  }
+}
+
+.website-logo-desktop-img {
+  width: 180px;
+}
+
+@media screen and (max-width: 991px) {
+  .website-logo-desktop-img {
+    display: none;
+  }
+}
+
+.form-container {
+  width: 100%;
+  max-width: 350px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (min-width: 992px) {
+  .form-container {
+    width: 350px;
+    flex-shrink: 0;
+    box-shadow: 0px 4px 16px 0px #d7dfe9;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 44px;
+    padding-right: 44px;
+    border-radius: 6px;
+  }
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.input-label {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 14px;
+  margin-bottom: 0;
+  font-weight: 600;
+  line-height: 16px;
+}
+
+.input-type {
+  width: 100%;
+  height: 40px;
+  border: 1px solid #d7dfe9;
+  background-color: #e2e8f0;
+  border: none;
+  outline: none;
+  font-weight: 500;
+  border-radius: 2px;
+  font-size: 14px;
+  margin-top: 6px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.submit-button {
+  background-color: #0b69ff;
+  color: white;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 14px;
+  border-radius: 4px;
+  width: 100%;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  height: 40px;
+  margin-top: 20px;
+  margin-bottom: 2px;
+}
+
+.error-message {
+  align-self: start;
+  font-size: 12px;
+  margin-top: 3px;
+  margin-bottom: 0px;
+  font-family: 'Roboto';
+  font-size: 12px;
+  line-height: 16px;
+  color: #ff0b37;
+}
